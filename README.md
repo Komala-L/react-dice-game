@@ -83,7 +83,8 @@ react-dice-game/
 ### 📸 Gameplay
 
 
-https://github.com/user-attachments/assets/dca070fa-0814-4540-9e3b-9985d8ac50ad
+https://github.com/user-attachments/assets/7e005ce9-d4ed-48f9-85ce-471452863811
+
 
 ---
 
