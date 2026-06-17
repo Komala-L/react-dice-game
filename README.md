@@ -1,16 +1,120 @@
-# React + Vite
+# 🎲 React Dice Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun and interactive dice game built with **React**, **Vite**, and **Styled Components**. Players select a number, roll the dice, and earn points if their guess matches the rolled number.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📖 About the Project
 
-## React Compiler
+This project is a simple React application that demonstrates the use of React Hooks, component-based architecture, state management, conditional rendering, and dynamic styling using Styled Components.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The objective of the game is to guess the correct dice number before rolling. If your selected number matches the rolled dice, you earn points equal to the dice value. Otherwise, 2 points are deducted from your score.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+* 🎲 Interactive dice rolling
+* 📈 Live score tracking
+* ❌ Error message if no number is selected
+* 🔄 Reset game functionality
+* 📜 Show/Hide game rules
+* 🎨 Responsive and clean user interface
+* ⚡ Built with React Hooks
+
+---
+
+## 🛠️ Tech Stack
+
+* React
+* Vite
+* JavaScript (ES6+)
+* Styled Components
+* Font Awesome Icons
+
+---
+
+## 📂 Project Structure
+
+```text
+react-dice-game/
+│── public/
+│   └── images/
+│       └── dice3.png
+│
+│── src/
+│   ├── assets/
+│   │   └── components/
+│   │       ├── GamePlay.jsx
+│   │       ├── NumberSelector.jsx
+│   │       ├── RoleDice.jsx
+│   │       ├── Rules.jsx
+│   │       ├── StartGame.jsx
+│   │       └── TotalScore.jsx
+│   │
+│   ├── styled/
+│   │   └── Button.js
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## 🎮 Game Rules
+
+1. Select any number between **1 and 6**.
+2. Click on the dice to roll.
+3. If your selected number matches the rolled number:
+
+   * You earn points equal to the dice number.
+4. If your guess is incorrect:
+
+   * **2 points** are deducted from your score.
+5. Repeat and try to achieve the highest score.
+
+---
+
+### 📸 Gameplay
+
+
+https://github.com/user-attachments/assets/dca070fa-0814-4540-9e3b-9985d8ac50ad
+
+---
+
+### Clone the repository
+
+```bash
+git clone https://github.com/your-username/react-dice-game.git
+```
+
+### Navigate to the project folder
+
+```bash
+cd react-dice-game
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Start the development server
+
+```bash
+npm run dev
+```
+
+The application will run on:
+
+```text
+http://localhost:5173
+```
+
+---
