@@ -91,7 +91,7 @@ https://github.com/user-attachments/assets/7e005ce9-d4ed-48f9-85ce-471452863811
 ### Clone the repository
 
 ```bash
-git clone https://github.com/your-username/react-dice-game.git
+git clone https://github.com/Komala-L/react-dice-game.git
 ```
 
 ### Navigate to the project folder
